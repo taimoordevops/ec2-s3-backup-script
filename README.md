@@ -17,14 +17,15 @@ The solution follows AWS best practices with logging, cron automation, and IAM r
 
 ---
 
-## 🗂️ Project Structure  
+## 🗂️ Project Structure 
+```bash
 ec2-s3-backup-script/
-├── backup-to-s3.sh # Main backup script
-├── backup-log.txt # Log file for backup operations
-├── free-tier-monitor.sh # Free Tier usage monitoring script (CloudWatch + SNS)
-├── .gitignore # Ignore unnecessary files
-└── README.md # Project documentation
-
+├── backup-to-s3.sh          # Main backup script
+├── backup-log.txt           # Log file for backup operations
+├── free-tier-monitor.sh     # Free Tier usage monitoring script (CloudWatch + SNS)
+├── .gitignore               # Ignore unnecessary files
+└── README.md                # Project documentation
+```
 ---
 
 ## ⚙️ Usage  
@@ -37,11 +38,13 @@ chmod +x backup-to-s3.sh
 
 chmod +x free-tier-monitor.sh
 ./free-tier-monitor.sh
-
+```
+---
 ✍️ Author
 
 12+ years software engineer transitioning to AWS/DevOps. Hands-on learner building real-world cloud projects.
 
 ---
 🌐 Useful Links  
-[S3 Bucket Console](https://s3.console.aws.amazon.com/s3/buckets/day3-bucket-taimoor)
+- [AWS S3 Console](https://s3.console.aws.amazon.com/s3/home)  
+- **Bucket Name:** `day3-bucket-taimoor` 

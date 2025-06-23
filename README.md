@@ -1,31 +1,18 @@
-# 🔁 EC2 to S3 Backup Script
+# EC2 S3 Backup Automation
 
-A Bash script that automates timestamped backups from an EC2 instance to an Amazon S3 bucket using the AWS CLI.
-
----
-
-## 🚀 Features
-
-- Creates a new `.txt` file with the current date/time
-- Uploads it to your S3 bucket (`day3-bucket-taimoor`)
-- Works with IAM Roles (no hardcoded credentials)
-- Lightweight & cron-ready
+## 📦 Project Overview
+This project automates the process of creating timestamped backup files on an EC2 instance and securely uploads them to an Amazon S3 bucket. The solution includes logging, monitoring, and IAM role-based access for enhanced security.
 
 ---
 
-## ⚙️ Usage
+## 🛠️ Features
+- ✅ Timestamped backup file generation
+- ✅ Automatic upload to Amazon S3
+- ✅ Backup activity logging
+- ✅ Fully automated via cron jobs
+- ✅ IAM Role-based access (no hardcoded credentials)
+- ✅ Free Tier Usage Monitoring with CloudWatch & SNS alerts
 
-```bash
-chmod +x backup-to-s3.sh
-./backup-to-s3.sh
-```
+---
 
-## ✍️ Author
-
-12+ years in software development — recently pivoting into DevOps and AWS Cloud Engineering.  
-🔹 Former team lead in secure environments  
-🔹 Learning cloud the hands-on way  
-
-**GitHub:** [github.com/taimoordevops](https://github.com/taimoordevops)
-
-*(LinkedIn will be added post-resignation 😎)*
+## 🗂️ Project Structure

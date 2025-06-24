@@ -40,6 +40,16 @@ chmod +x free-tier-monitor.sh
 ./free-tier-monitor.sh
 ```
 ---
+## ♻️ Restore from S3  
+---
+Ensure your EC2 instance has AWS CLI access (via IAM Role or credentials).  
+
+Make the restore script executable and run it:  
+```bash
+chmod +x restore.sh  
+./restore.sh
+```
+---
 ✍️ Author
 
 12+ years software engineer transitioning to AWS/DevOps. Hands-on learner building real-world cloud projects.

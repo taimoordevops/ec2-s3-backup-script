@@ -1,16 +1,25 @@
-# Ignore backup archives
+# Ignore compressed backup archives
+*.tar.gz
 *.zip
 
-# Ignore temp files created by nano or other editors
+# Ignore log files
+*.log
+backup-log.txt
+
+# Ignore temporary directories
+/tmp/
+
+# Editor temp files
 *.swp
 *.swo
 *~
 
-# Ignore AWS credentials or sensitive files if any
+# Sensitive files (just in case)
 *.pem
 *.env
 credentials.csv
 
-# Optional: macOS or Windows hidden files
+# OS-specific hidden files
 .DS_Store
 Thumbs.db
+
